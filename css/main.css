@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control {
+  font-size: 18px;
+}
+
+.img {
+  width: 300px;
+  border-radius: 15px;
+}
+.films-box {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.item-text {
+  margin-top: 10px;
+  max-width: 300px;
+}
+.id-text {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.overview-text {
+  max-width: 300px;
+}
+.span-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.genres-text {
+  max-width: 300px;
+}
+.bottom-box {
+  position: relative;
+  height: 210px;
+}
+.delete-btn {
+  width: 300px;
+  padding: 10px 0;
+  font-size: 20px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 10px;
+  margin-top: 8px;
+  position: absolute;
+  bottom: 0;
+}
+.select-box {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 8px;
+}

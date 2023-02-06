@@ -42,7 +42,7 @@ body {
 }
 
 .img {
-  width: 300px;
+  width: 280px;
   border-radius: 15px;
 }
 .films-box {
@@ -53,28 +53,28 @@ body {
 }
 .item-text {
   margin-top: 10px;
-  max-width: 300px;
+  max-width: 280px;
 }
 .id-text {
   font-size: 18px;
   margin-top: 5px;
 }
 .overview-text {
-  max-width: 300px;
+  max-width: 280px;
 }
 .span-text {
   font-size: 18px;
   font-weight: 600;
 }
 .genres-text {
-  max-width: 300px;
+  max-width: 280px;
 }
 .bottom-box {
   position: relative;
   height: 210px;
 }
 .delete-btn {
-  width: 300px;
+  width: 280px;
   padding: 10px 0;
   font-size: 20px;
   border: none;
@@ -89,4 +89,50 @@ body {
   margin-top: 20px;
   padding: 5px;
   border-radius: 8px;
+}
+.hero-box {
+  display: flex;
+  align-items: center;
+}
+.hero-title {
+  margin-top: 15px;
+}
+
+.logo-img {
+  width: 40px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.item-list {
+  background-color: honeydew;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.replacement {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: none;
+  background: teal;
+  color: white;
+}
+
+.white-mode {
+  background: white;
+}
+.dark-mode {
+  background-color: black;
+}
+.text-light {
+  color: white;
+  margin-top: 15px;
+}
+.text-dark {
+  color: black;
+  margin-top: 15px;
 }
